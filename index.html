@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da Dashing Dashboard</title>
+    <link rel = 'stylesheet' href = 'dashboardStyles.css' id = 'styles'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = 'topBar'>
+        <h1>Welcome to your Dashboard!</h1>
+    </div>
+    <div class = 'mainContent'>
+        <div class = 'dashboard'>
+            <div class = 'clock'>
+                <h2>Current Time:</h2>
+                <br>
+                <br>
+                <span id = "clock"></span>
+                <br>
+            </div>
+            <div class = 'To-Do List'>
+                <h2>To-Do List:</h2>
+                <iframe src = 'tasks.html' width = '90%' height = '80%'></iframe>
+            </div>
+            <div class = 'Quick Links'>
+                <h2>Quick Links:</h2>
+                <br>
+                <ul>
+                    <li><a href = 'https://coursesnew.iitm.ac.in/'>Moodle</a></li>
+                    <li><a href = 'https://workflow.iitm.ac.in'>Workflow</a></li>
+                    <li><a href = 'https://academic.iitm.ac.in'>Academic Site</a></li>
+                    <li><a href = 'https://google.com'>Google</a></li>
+                    <li><a href = 'https://youtube.com'>Youtube</a></li>
+                    <li><a href = 'https://ecell.iitm.ac.in'>E-Cell</a></li>
+                    <li><a href = 'https://esummitiitm.org/'>E-Summit</a></li>
+                </ul>
+            </div>
+            <div class = 'timetable'>
+                <h2>Timetable:</h2>
+                <a href = 'Timetable.jpg'><img src="Timetable.jpg"></a>
+            </div>
+            <div class = 'calendar'>
+                <h2>Calendar:</h2>
+                <a href = 'juneCalendar.jpg'><img src = 'juneCalendar.jpg'></a>
+            </div>
+            <div class = 'news'>
+                <h2>News:</h2>
+                <iframe src="https://www.ndtv.com/latest#pfrom=home-ndtv_mainnavgation" title = 'news' width="90%" height="80%" style="border:1px solid black;"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src = 'dashboardJS.js'></script> 
+</body>
+</html>

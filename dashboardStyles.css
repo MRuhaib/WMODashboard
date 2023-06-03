@@ -1,0 +1,97 @@
+body {
+    font-family: 'Golos Text', sans-serif;
+    background-image: url(https://media4.giphy.com/media/xT8qB50yhFINpFTymI/giphy.gif?cid=6c09b9527eabe31bc0d75a32ab4929cb633722d4e343b431&ep=v1_internal_gifs_gifId&rid=giphy.gif&ct=g);
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    color: goldenrod;
+    padding-top: 0px;
+  }
+
+.topBar{
+    background-color: black;
+    color: goldenrod;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    border: 0px;
+    margin: 0px; 
+  }
+
+@media screen and (min-width: 600px){
+
+    .dashboard{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+        row-gap: 30px;
+        padding: 30px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .dashboard{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        padding: 30px;
+    }
+    
+}
+
+.dashboard div{
+    background-color: black;
+    border: 5px solid goldenrod;
+    border-radius: 25px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.4s;
+}
+
+.dashboard div:hover{
+    background-color: rgb(39, 39, 39);
+    border: 2px solid goldenrod;
+    transform: translateY(-10px);
+    transition-duration: 0.4s;
+  }
+
+img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    
+}
+
+h2 {
+    padding: 0px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#clock {
+    font-size: 25px;
+    border: 10px solid gold;
+    border-radius: 50px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+ul{
+    list-style-type: none;
+  padding: 0; 
+  margin: 0; 
+}
+
+a {
+    color: gold;
+}
